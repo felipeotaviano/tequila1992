@@ -1,0 +1,542 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+
+    background-color:white;
+    color: rgba(20, 18, 135, 0.906);
+    padding: 15px 0 ;
+
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.header__h1 {
+    font-weight: 500;
+}
+
+.nav {
+    width: 50%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between
+}
+
+.nav__li {
+    color: rgba(20, 18, 135, 0.906);
+    text-decoration: none;
+    font-weight: 600;
+}
+.nav__li:hover{
+    color: #c2c3c8;
+}
+
+
+/*seccion principal*/
+.img1 {
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    width: 350px
+}
+
+
+.section1 {
+    background-color: #F7F7FB;
+    padding-bottom: 40px;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between
+}
+
+.div1 {
+    width: 50%;
+    margin: 80px 60px;
+}
+
+.div2 {
+    width: 50%;
+}
+
+.boton1 {
+    text-decoration: none;
+    color: #000;
+    background-color: #DDDFEA;
+    border-radius: 5px;
+    border-color: #c2c3c8;
+    border: #DDDFEA;
+    padding: 15px 20px;
+}
+
+.boton1:hover {
+    color:black;
+    background-color: #c2c3c8;
+}
+
+
+/*SECCION NOSOTROS*/
+.nosotros{
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+.nosotros__titulo {
+    padding: 30px;
+    font-weight: 700;
+    font-size: 1, 8rem;
+}
+
+.articulo__1 img {
+    width: 500px;
+    border-radius: 8px;
+
+}
+
+.articulo__2 img {
+    width: 400px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.articulo__3 img {
+    width: 350px;
+    border-radius: 8px;
+}
+
+.articulos {
+    display: flex;
+    padding:25px 40px
+}
+
+.articulo__1 {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.articulo__2 {
+    width: 50%;
+    border: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*seccion productos*/
+
+.productos {
+    padding:  40px 60px ;
+    background-color:#F7F7FB
+}
+
+.tarjetas{
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    font-weight: 500px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+}
+
+.card:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+
+
+/*cocteles*/
+
+.cocteles {
+    padding: 90px 60px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.cocteles__h2{
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.cocteles__p{
+    padding: 5px 0;
+}
+
+.cocteles__boton {
+    text-decoration: none;
+    color: black;
+    background-color: #DDDFEA;
+    border-radius: 5px;
+    border-color: #c2c3c8;
+    border: #DDDFEA;
+    padding: 15px 20px
+    
+}
+
+.cocteles__boton:hover{
+    background-color: #c2c3c8;
+    color:black;
+}
+
+.cocteles__img {
+    width: 600px;
+    border-radius: 8px;
+}
+
+/*footer*/
+
+.footer{
+    background-color: #111a5e;
+    color: white;
+    padding: 60px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__title{
+    font-size: 1.8rem;
+}
+
+.links{
+    padding-left: 60px;
+    max-width: 25%;
+}
+
+
+.redes{
+    padding: 0 15px;
+    max-width: 25%;
+}
+
+.newsteller{
+    padding: 0 15px;
+    max-width:30%
+}
+
+.newsteller__p{
+    padding: 15px 0;
+}
+
+.boton-correo{
+    border: none;
+    padding: 8px 10px
+}
+
+.boton-suscribirse{
+    padding: 6px 3px;
+    background-color: #000;
+    color: #ffffff; 
+}
+
+.boton-suscribirse:hover{
+    transform: scale(1.10);
+    transition-duration: 1,9s;
+}
+
+.links__ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes__ul{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    
+}
+
+.link:hover{
+    color: rgb(157, 157, 161);
+}
+
+/* seccion derechos */
+
+.derechos{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: rgb(14, 14, 82);
+    color: #F7F7FB;
+    font-size: small;
+}
+
+
+/* pagina de nosotros */
+
+.nosotros-head{
+    margin-top: 65px;
+    height: 70vh;
+    background-image:url(../assets/img/tequila-fabrica2.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros-head__text{
+    color: white;
+    text-align: center;
+}
+
+.nosotros-head__text h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: 10px 0;
+}
+
+.nosotros-head__text p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1,8rem;
+    font-weight: 600;
+}
+/* contenido pagina nosotros */
+
+.solorzano{
+    margin-top:30px;
+    padding:20px 40px;
+
+    display:flex;
+    justify-content: space-between;
+}
+
+.solorzano__h2{
+    padding: 15px;
+}
+
+
+.solorzano__p{
+    font-size: 400;
+    padding: 15px;
+}
+
+.solorzano__img{
+    width: 400px;
+    border-radius: 3px;
+}
+
+.espiritu{
+    margin-top: 20px;
+    padding: 25px 40px;
+    background-color:#F7F7FB;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.espiritu__h2{
+    padding: 15px;
+}
+
+.espiritu__p{
+    padding: 15px;
+}
+
+
+.espiritu__img{
+    width: 400px;
+    border-radius: 3px;
+}
+
+.leyenda{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 25px 40px;
+    
+    display: flex;
+}
+
+.leyenda__h2{
+    padding: 15px 0;
+}
+
+
+
+.leyenda__img{
+    width: 500px;
+    border-radius: 3px;
+}
+
+
+/* Pagina de Contacto */
+
+.mapa{
+    width: 500px;
+    height: 400px;
+}
+
+.formulario-contacto{
+    margin-top: 65px;
+}
+
+.formulario-contacto__portada{
+    margin-top: 65px;
+    background-image: url(../assets/img/contacto-imagen2.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-contacto__h2{
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.titulo-contacto{
+    padding-top: 30px;
+    padding-left: 40px;
+    width: 80%;
+}
+
+.titulo-contacto__h3{
+    padding-bottom: 15px;
+}
+
+.titulo-contacto__p{
+    padding-bottom: 15px;
+}
+
+.contenedor-formulario-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 30px 70px;
+}
+
+.formulario{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    padding-left:20px;
+    padding-bottom: 80px;
+    background-color: #eaecf1;
+}
+
+.titulo-formulario{
+    text-align: center;
+    padding: 20px;
+}
+
+.form-imput{
+    border: none;
+    width: 350px;
+    padding: 15px;
+    margin-top: 15px;
+    background-color:rgba(255, 253, 253, 0.938)
+}
+
+.form-botton{
+    width: 350px;
+    background-color: #131417;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    color: #F7F7FB;
+    outline: none;
+    cursor: pointer;
+}
+
+.form-botton:hover{
+    background-color: #292b2e;
+}
+
+/*-- Pagina de tequilas --*/
+
+.tequilas-head{
+    margin-top: 65px;
+    height: 70vh;
+    background-image:url(../assets/img/tequilas-3.jpg) ;
+    background-position: center;
+    background-size:cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.tequila-head-text{
+    color: rgb(228, 229, 237);
+    text-align:center ;
+    font-size: 1.5rem;
+}
+
+.div-tequilas{
+    padding: 20px 0px;
+    display: flex;
+    outline: none;
+}
+
+.div-imagen-tequilas{
+    width: 45%;
+}
+
+.imagen-tequilas{
+    width: 90%;
+    padding: 0px;
+}
+
+.div-tequilas-info{
+    width: 50%;
+    padding: 70px;
+}
+
+.titulo-tequila{
+    padding: 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.price{
+    padding: 10px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    
+}
+.text-tequila{
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 0px;
+    font-weight: 500;
+}
