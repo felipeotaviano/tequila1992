@@ -11,8 +11,8 @@
     left: 0%;
     width: 100%;
 
-    background-color:white;
-    color: rgba(20, 18, 135, 0.906);
+    background-color:rgba(20, 18, 135, 0.906);
+    color:white;
     padding: 15px 0 ;
 
 
@@ -37,7 +37,7 @@ ul {
 }
 
 .nav__li {
-    color: rgba(20, 18, 135, 0.906);
+    color: rgba(255, 255, 255, 0.906);
     text-decoration: none;
     font-weight: 600;
 }
@@ -213,6 +213,7 @@ ul {
     display: flex;
     justify-content: space-between;
 }
+
 
 .footer__title{
     font-size: 1.8rem;
@@ -539,4 +540,147 @@ ul {
     font-family: 'Montserrat', sans-serif;
     padding: 15px 0px;
     font-weight: 500;
+}
+
+/*-- INICIO RESPONSIVE --*/
+@media (max-width:480px) {
+    .nav__li{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .header{
+        position: static;
+        flex-direction: column;
+        margin: 0%;
+        width: 100%;
+        padding-right: 15px;
+    }
+
+    .nav{
+        align-items: center;
+        
+    }
+
+    .div2{
+        display: flex;
+        align-items: center;
+    }
+
+    .section1{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        width: 100%;
+    }
+
+    .img1 {
+        width:300px;
+        margin-left: 50px;
+    }
+
+    .articulos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articulo__1 img{
+        width:300px;
+    }
+    .articulo__2 img{
+        width: 300px;
+    }
+
+    .articulo__3 img{
+        width: 300px;
+    }
+    .cocteles{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cocteles__img{
+        width: 300px;
+        margin-top: 30px;
+    }
+
+    .tarjetas{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        margin: 10px;
+    }
+
+
+    .cocteles{
+        padding: 40px;
+    }
+
+
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .footer__title{
+        padding-left: 10px;
+    }
+
+    .links{
+        padding:20px
+    }
+
+    .redes{
+        padding: 20px;
+    }
+
+    .newsteller{
+        padding: 20px;
+    }
+
+    .derechos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 10px 20px;
+    }
+}
+
+/*-- nosotros responsive --*/
+@media(max-width:480px){
+    .nosotros-head{
+        margin-top: 0px;
+    }
+
+    .solorzano{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .solorzano__img{
+        width: 350px;
+    }
+
+    .espiritu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .espiritu__img{
+        width: 350px;
+    }
+
+    .leyenda{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leyenda__img{
+        width: 350px;
+    }
 }
